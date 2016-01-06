@@ -47,7 +47,7 @@ func (d *Driver) Create() error {
 }
 
 func (d *Driver) DriverName() string {
-	return "none-external"
+	return "ci-test"
 }
 
 func (d *Driver) GetIP() (string, error) {
